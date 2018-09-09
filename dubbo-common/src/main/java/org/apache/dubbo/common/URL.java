@@ -84,8 +84,10 @@ public /**final**/ class URL implements Serializable {
     // by default, port to registry
     private final int port;
 
+    // 路径 (服务名)
     private final String path;
 
+    // 参数集合
     private final Map<String, String> parameters;
 
     // ==== cache ====
